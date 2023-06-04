@@ -8,9 +8,9 @@ body {
  	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-h1,
-.boxik {
+h1 {
 	text-align: center;
+	font-size: 28px;
 }
 
 div {
@@ -23,7 +23,15 @@ div {
 }
 
 .boxik {
+	text-align: center;
 	border-width: thin;
+	border-color: black;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+	position: relative;
+	padding: 2px;
+	width: 8em;
 }
 
 #ckn {
@@ -39,4 +47,39 @@ div {
 #sus {
 	color: black;
 	background-color: #FFFF99;
+}
+
+@media (min-width: 992px) {
+.box {
+	float: left;
+	width: 29.333%;
+	margin: 2%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.box {
+	float: left;
+	margin: 2%;
+}
+#box1,
+#box2 {
+	width: 46%;
+	float: left;
+
+}
+#box3 {
+	width: 100%;
+}
+}
+  
+@media (min-width: 0px) and (max-width: 767px) {
+.box {
+	float: left;
+	width: 100%;
+	margin: 2%;
+}
+.boxik{
+	margin-right: 30px;
+}
 }
