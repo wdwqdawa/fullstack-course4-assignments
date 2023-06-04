@@ -1,0 +1,119 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(197, 251, 255, 0.87);
+	border-bottom: thick black solid;
+	border-top: thick black solid;
+	border-left: thin black solid;
+	border-right: thin black solid;
+}
+
+.navbar-brand{
+  font-size: 3em;
+  color: black;
+  padding-left: 25px;
+  margin: 10px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  
+}
+
+.navbar-brand:hover{
+	color: black;
+}
+
+.nav{
+	border-top: thick black solid;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: black;
+}
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#chicken {
+	background-color: rgb(100, 237, 141);
+}
+
+#beef {
+	background-color: rgb(235, 255, 146);
+}
+
+#sushi {
+	background-color: rgb(255, 157, 157);
+}
+
+#top{
+
+}
