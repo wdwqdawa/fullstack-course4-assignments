@@ -69,17 +69,14 @@ div {
 
 }
 #box3 {
-	width: 100%;
+	width: 96%;
 }
 }
   
 @media (min-width: 0px) and (max-width: 767px) {
 .box {
 	float: left;
-	width: 100%;
+	width: 96%;
 	margin: 2%;
-}
-.boxik{
-	margin-right: 30px;
 }
 }
