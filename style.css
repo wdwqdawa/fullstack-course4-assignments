@@ -1,1 +1,17 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+	margin: 0;
+	padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#ckn, #sus {
+  color: black;
+}
+
+#bef {
+  color: white;
+}
