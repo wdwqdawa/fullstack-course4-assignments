@@ -1,17 +1,37 @@
 * {
-  box-sizing: border-box;
+ 	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+ 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-#ckn, #sus {
-  color: black;
+div {
+	border-style: solid;
+}
+
+.box {
+	border-width: medium;
+	background-color: light-gray;
+}
+
+.boxik {
+	border-width: thin;
+}
+
+#ckn {
+  	color: black;
+	background-color: #FFB6C1;
 }
 
 #bef {
-  color: white;
+	color: white;
+	background-color: #FF6347;
+}
+
+#sus {
+	color: black;
+	background-color: #FFFF99;
 }
